@@ -1,0 +1,44 @@
+.app__home{
+    margin-left: 5rem;
+    justify-content: flex-start;
+    align-items: wrap;
+    position: relative;
+}
+.app__home p:first-child{
+    margin-top: 15rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 30px;
+}
+.app__home :nth-child(2){
+    margin-top: 2rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.app__home button{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #0404B4;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1150px){
+    .app__home p:first-child{
+        font-weight: 1000;
+        font-size: 30px;
+        line-height: 20px;
+        margin-top: 2rem;
+    }
+}
